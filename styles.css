@@ -1,0 +1,134 @@
+html,body {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #222;
+}
+
+#logo, #goog {
+	width: 269;
+	height: 95;
+	margin: auto;
+}
+
+#logo {
+	padding-top: 162px;
+	padding-bottom: 20px;
+}
+
+#searchform {
+	display: block-inline;
+	width: 571px;
+	height: 87px;
+	margin: auto;
+	
+}
+
+#searchtext {
+	width: 571px;
+	max-height: 30px;
+	margin: auto;
+	border: 1px medium #666;
+	
+}
+
+#gogetit {
+	width: 104px;
+	height: 29px;
+	margin-left: auto;
+}
+
+#buttons {
+	
+	
+	padding-top: 15px;
+	color: #444;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	border-color: #E4E4E4;
+	border-radius: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+#buttons:focus {
+	border: 1px solid #4D90FE;
+}
+
+li {
+	display: inline-block;
+}
+
+#nav {
+	display: block;
+	width: 100%;
+	height: 30px;
+	clear: both;
+}
+
+.nav {
+	position: relative;
+	display: inline;
+	float: right;
+	width: -25px;
+	height: 20px;
+	margin: auto;
+	padding-right: 20px;
+	top: 10px;
+	vertical-align: middle;
+}
+
+a {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #222;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #F2F2F2;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	bottom: 0;
+	font-size: 10pt;
+	height: 35px;
+	position: absolute;
+	width: 100%;
+	border-top: 1px solid #E4E4E4;
+}
+
+#foot1, #foot2 {
+	display: inline;
+	position: relative;
+	margin: auto;
+	top: 7px;
+}
+
+#foot1 {
+	float: left;
+	margin-left: -10px;
+}
+
+#foot2 {
+	float: right;
+	margin-right: 20px;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6 {
+	padding: 0px 11px 0px 10px;
+}
+
+.foot {
+	color: #666;
+}
